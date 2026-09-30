@@ -1,0 +1,35 @@
+body { font-family: sans-serif; padding: 24px; }
+.acoes { display: flex; gap: 8px; margin-bottom: 16px; }
+#painel {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 12px;
+}
+.card { padding: 16px; border-radius: 8px; border: 2px solid #999; }
+
+
+.ok { 
+  background-color: #d2ebd8; 
+  border-color: #29b64a; 
+  color: #212529
+}
+.alerta { 
+  background-color: #fff6d9; 
+  border-color: #ff790c; 
+  color: #212529 
+}
+.critico { 
+  background-color: #f10018; 
+  color: white;              
+}
+
+.offline { opacity: 0.4; border-style: dashed; }
+
+body.manutencao { 
+  background-color: #343a40; 
+  color: #f8f9fa;            
+}
+#log {
+  background: #f2f2f2; padding: 12px; min-height: 40px;
+  color: #212529
+}
